@@ -1,0 +1,26 @@
+  body {
+    background-color: #D1F6F9;
+    font-family: Ariel, Helvetica, sans-serif;
+  }
+
+  hr {
+    border-color: #d3d3d3;
+    border-top-width: 5px;
+    border-style: dotted none none;
+    width: 5%;
+  }
+
+  h1 {
+    color: #995457;
+  }
+
+  h3 {
+    color: #1D9963;
+    font-family: "Ariel black", Gadget, sans-serif;
+  }
+
+/******************ID SELECTORS***************/
+
+#hero_bean {
+  border-radius: 50%;
+}
