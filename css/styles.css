@@ -1,0 +1,208 @@
+/**********TAG SPECIFIER*********/
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+p {
+  margin: auto;
+  padding-top: 25px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.75rem;
+  color: #472d30;
+  line-height: 2;
+  /**** dynamic font size is 100%=16px so do (desired px)/16 to get % for size). also 1em = 16px, so can do 375em (rem = route em, not changed by parents)****/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #472d30;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+}
+
+hr {
+  border-color: lightgrey;
+  border-top-width: 5px;
+  border-style: dotted none none;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
+a {
+  color: #c9cba3;
+  margin: 16px;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF7BE;
+}
+
+/**********CLASS SPECIFIER*********/
+.header {
+  overflow: hidden;
+  background-color: #c9cba3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2
+}
+
+.header a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background: #5B5C3C;
+  color: black;
+}
+
+.topContainer {
+  background-color: #ffe1a8;
+  position: relative;
+  padding-top: 80px;
+  margin-top: 45px;
+}
+
+.midContainer {
+  background-color: #E08E45;
+}
+
+.midContainer2 {
+  background-color: #e26d5c;
+}
+
+.botContainer {
+  background-color: #723d46;
+  padding: 15px;
+}
+
+.title {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  width: 150px;
+  bottom: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 50%;
+  margin-right: -300px;
+  width: 150px;
+  top: 50px;
+}
+
+.center-text {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.list {
+  text-align: left;
+  width: 30%;
+  margin: auto;
+}
+
+.selector-bar {
+  position: relative;
+  background-color: #ffe1a8;
+  margin-top: 45px;
+  height: 200px;
+}
+
+.image-row {
+  margin: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+}
+
+.category-image {
+  max-width: 200px;
+  max-height: 100px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #723d46;
+}
+
+.skill-row {
+  margin: 75px auto 75px auto;
+  width: 50%;
+  text-align: left;
+  padding-bottom: 150px;
+  line-height: 2;
+}
+
+.kidney {
+  width: 20%;
+  float: left;
+  /*** 'clear=left' acts as an anti float, remove the float from that section ***/
+  margin-right: 30px;
+}
+
+.cashew {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.BUTTON_WVP {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: black;
+font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #E08E45;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 0 1px 21px #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 25px;
+}
+
+.BUTTON_WVP:hover {
+  background: #E08E45;
+  border: solid #E08E45 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
